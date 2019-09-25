@@ -12,9 +12,15 @@ public class LambtonStringTools
             revString[t1++]=charString[l];
 
         }
+        // string reversed
         String lastReverse;
         lastReverse =new String(revString);
         return lastReverse;
 
+    }
+    public int binaryToDecimal(String h)
+    {
+        int c = Integer.parseInt(h,2);
+        return c;
     }
 }
