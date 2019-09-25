@@ -6,6 +6,7 @@ public class mainfile
         LambtonStringTools t1 = new LambtonStringTools();
         System.out.println(t1.reverse("lambton"));
         System.out.println(t1.binaryToDecimal("10100011101101"));
+        System.out.println(t1.initials("happy DAndiwal siINGh"));
 
 
     }
